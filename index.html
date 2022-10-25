@@ -10,18 +10,42 @@
 </head>
 <body>
     <div class="wrapper">
-        <h1>Palavras Cruzadas - Metroid</h1>
-        <table>
-            <script>
-                for(i = 0; i < matriz.length; i++) {
-                    document.write('<tr>');
-                    for(j = 0; j < matriz[i].length; j++) {
-                        document.write("<td class='" + matriz[i][j][1] + "'>" + matriz[i][j][0] + "</td>");
+        <div class="palavrasCruzadas">
+            <h1>Palavras Cruzadas - Metroid</h1>
+            <table>
+                <script>
+                    for(i = 0; i < matriz.length; i++) {
+                        document.write('<tr>');
+                        for(j = 0; j < matriz[i].length; j++) {
+                            document.write("<td class='" + matriz[i][j][1] + "'>" + matriz[i][j][0] + "</td>");
+                        }
+                        document.write('</tr>');
                     }
-                    document.write('</tr>');
-                }
-            </script>
-        </table>
+                </script>
+            </table>
+        </div>
+        <div class="conteudo">
+            <h1>Encontre as Palavras Abaixo</h1>
+            <div class="list">
+                <ul>
+                    <li><h3>Metroid</h3></li>
+                    <li><h3>Samus</h3></li>
+                    <li><h3>ScrewAttack</h3></li>
+                    <li><h3>Mother</h3></li>
+                    <li><h3>Brain</h3></li>
+                    <li><h3>Artaria</h3></li>
+                    <li><h3>Cataris</h3></li>
+                    <li><h3>Dairon</h3></li>
+                    <li><h3>Geemer</h3></li>
+                    <li><h3>Space Pirate</h3></li>
+                    <li><h3>Torizo</h3></li>
+                </ul>
+                <ul>
+                    <li><h3>Reo</h3></li>
+                    <li><h3>Kago</h3></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
